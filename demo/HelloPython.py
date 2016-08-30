@@ -177,8 +177,25 @@
 # nums = (1,2,3)
 # calc(*nums)
 
-list1 = ['a', 'b', 'c']
-list2 = sorted(list1, reverse=True)
-print(list2)
-names = [1, 2, 3, 4]
-list2 = sorted(names)
+# list1 = ['a', 'b', 'c']
+# list2 = sorted(list1, reverse=True)
+# print(list2)
+# names = [1, 2, 3, 4]
+# list2 = sorted(names)
+
+
+''' 模块的用法
+'''
+# import module1
+import module1 as m1
+# from module1 import func2
+from module1 import func2 as f2
+from module1 import *
+
+# module1.func1();
+m1.func1();
+# func2();
+f2();
+func1();
+
+
