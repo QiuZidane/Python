@@ -193,9 +193,7 @@ from module1 import func2 as f2
 from module1 import *
 
 # module1.func1();
-m1.func1();
+m1.func1()
 # func2();
-f2();
-func1();
-
-
+f2()
+func1()
