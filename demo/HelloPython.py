@@ -184,7 +184,10 @@
 # list2 = sorted(names)
 
 
-''' 模块的用法
+'''
+
+模块的用法
+
 '''
 # import module1
 import module1 as m1
@@ -197,3 +200,16 @@ m1.func1()
 # func2();
 f2()
 func1()
+
+'''
+
+可以访问条件语句中的值
+
+'''
+value = '123'
+if True:
+    value = 1
+else:
+    value = 2
+print(value)
+
