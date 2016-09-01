@@ -1,4 +1,4 @@
-from P9_1 import Restaurant
+from Part9.P9_1 import Restaurant
 
 class IceCreamStand(Restaurant):
     def __init__(self, restaurant_name, cuisine_type):
@@ -10,3 +10,4 @@ class IceCreamStand(Restaurant):
 
 icecream1 = IceCreamStand('baiyun_hotel', 'CAIPU')
 icecream1.showFlavors()
+
